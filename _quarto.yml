@@ -15,7 +15,7 @@ website:
   navbar:
     favicon: images/logo_dgm.png
     background: "#262885"
-    logo: images/logo_dgm_w.png
+    logo: images/logo_dgm.png
     left:
       - href: index.qmd
         text: Accueil

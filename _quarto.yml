@@ -7,6 +7,9 @@ project:
   post-render:
     - R/finish.R
 
+title-block-banner: "images/banner.png"
+title-block-banner-color: "white"
+
 website:
   title: "CD Chalet-à-Gobet 2024"
   navbar:

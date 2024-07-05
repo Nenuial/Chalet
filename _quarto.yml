@@ -1,0 +1,38 @@
+project:
+  type: website
+  pre-render:
+    - R/cleanup.R
+    - R/fetch.R
+    - R/setup.R
+  post-render:
+    - R/finish.R
+
+website:
+  title: "CD Chalet-à-Gobet 2024"
+  navbar:
+    favicon: images/logo_dgm.png
+    background: "#262885"
+    logo: images/logo_dgm_w.png
+    left:
+      - href: index.qmd
+        text: Accueil
+      - href: actuel/Carre_A.qmd
+      - href: actuel/Carre_B.qmd
+  page-footer:
+    left:
+      - text: "EquiEvents"
+    right:
+      - text: "info@equievents.ch"
+        href: "mailto:info@equievents.ch"
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    lang: fr
+    execute:
+      echo: false
+      warning: false
+
+editor: visual

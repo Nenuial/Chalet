@@ -5,7 +5,7 @@ project:
     - R/fetch.R
     - R/setup.R
   post-render:
-    - R/finish.R
+    - ./deploy.sh
 
 title-block-banner: "images/banner.png"
 title-block-banner-color: "white"

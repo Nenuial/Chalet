@@ -3,7 +3,7 @@ project:
   pre-render:
     - R/cleanup.R
     - R/fetch.R
-    - R/setup.R
+    - R/setup_champ.R
   post-render:
     - ./deploy.sh
 

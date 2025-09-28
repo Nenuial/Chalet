@@ -9,3 +9,4 @@ www
 actuel
 data
 results
+**/*.quarto_ipynb

@@ -8,4 +8,4 @@ listing:
   fields: [Epreuve, title]
 ---
 
-Vous trouverez sur ce site les résultats pour les épreuves du concours de dressage du Chalet-à-Gobet du 6 et 7 juillet 2024.
+Vous trouverez sur ce site les résultats pour les épreuves du concours de dressage du Chalet-à-Gobet du 28 septembre 2025.
